@@ -11,17 +11,17 @@ header {
     text-align: center;
 }
 
-nav ul {
+nav, ul {
     list-style-type: none;
     padding: 0;
 }
 
-nav ul li {
+nav, ul, li {
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
+nav, ul, li, a {
     color: white;
     text-decoration: none;
 }
@@ -30,11 +30,11 @@ section {
     padding: 2em;
 }
 
-section h2 {
+section, h2 {
     color: #4CAF50;
 }
 
-section img {
+section, img {
     max-width: 100%;
     height: auto;
     margin: 1em 0;
@@ -51,7 +51,7 @@ form {
     margin: 0 auto;
 }
 
-form label {
+form, label {
     display: block;
     margin: 1em 0 0.5em;
 }
@@ -64,7 +64,7 @@ form input, form textarea {
     border-radius: 4px;
 }
 
-form button {
+form, button {
     background-color: #4CAF50;
     color: white;
     padding: 0.75em 1.5em;
@@ -73,7 +73,7 @@ form button {
     cursor: pointer;
 }
 
-form button:hover {
+form, button:hover {
     background-color: #45a049;
 }
 
